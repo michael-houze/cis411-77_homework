@@ -1,0 +1,78 @@
+#comment{
+	height:150px;
+	text-align: top;
+	width:300px;
+}
+
+#email{
+	width:300px;
+}
+
+.calcBigButton
+{
+	background:-webkit-linear-gradient(top, darkgrey, grey);
+	border:1px solid black;
+	color:white;
+	float: left;
+	font-family: 'Dosis', sans-serif;
+	font-size: 35px;
+	height:57.5px;
+	margin:0px;
+	padding:0px;
+	width:115px;
+	text-shadow: 1px 1px 1px black;
+}
+
+.calcButton
+{
+	background:-webkit-linear-gradient(top, darkgrey, grey);
+	border:1px solid black;
+	color:white;
+	float: left;
+	font-family: 'Dosis', sans-serif;
+	font-size: 35px;
+	height:57.5px;
+	margin:0px;
+	padding:0px;
+	width:57.5px;
+	text-shadow: 1px 1px 1px black;
+}
+
+.calcForm
+{
+	position: absolute;
+	left:600px;
+	top:20px;
+}
+
+.calcInput
+{
+	background:-webkit-linear-gradient(top, lightgrey, grey);
+	border: 1px solid black;
+	border-radius: 2px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 35px;
+	height: 75px;
+	margin-bottom: 25px;
+	padding:10px;
+	text-align: right;
+	width: 230px;
+}
+
+.calcTable
+{
+	background-image:url('image/background-slate.jpg');
+	border:4px solid black;
+	border-radius:6px;
+	height:400px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	width:275px;
+}
+
+.navMenu
+{
+	font-family: 'Dosis', sans-serif;
+}

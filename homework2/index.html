@@ -1,0 +1,56 @@
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
+		<script src="scripts.js"></script>
+	</head>
+
+	<body>
+		<left>
+			<h2 class="navMenu">Assignment 2 Navigation</h2>
+			<ul class="navMenu">
+				<li><a href="index.html">Calculator</a></li>
+				<li><a href="registration.html">Registration Form</a></li>
+				<li><a href="feedback.html">Feedback</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+		</left>
+
+		<center>
+			<form class="calcForm" id="calc">
+				<h2>Calculator</h2>
+				<table class = "calcTable">
+					<tr>
+						<td>
+								<input id = "inputBox" name = "input" class = "calcInput" type="text" size="16">
+								<br>
+								<button class = "calcBigButton" type="button" onclick=setValue('')>CE</button>
+								<button class = "calcButton" type="button" onclick=insertValue('%')>+/-</button>
+								<button class = "calcButton" type="button" onclick=insertValue('%')>%</button>
+								<br>
+								<button class = "calcButton" type="button" onclick=insertValue('7')>7</button>
+								<button class = "calcButton" type="button" onclick=insertValue('8')>8</button>
+								<button class = "calcButton" type="button" onclick=insertValue('9')>9</button>
+								<button class = "calcButton" type="button" onclick=insertValue('/')>&divide;</button>
+								<br>
+								<button class = "calcButton" type="button" onclick=insertValue('4')>4</button>
+								<button class = "calcButton" type="button" onclick=insertValue('5')>5</button>
+								<button class = "calcButton" type="button" onclick=insertValue('6')>6</button>
+								<button class = "calcButton" type="button" onclick=insertValue("*")>x</button>
+								<br>
+								<button class = "calcButton" type="button" onclick=insertValue('1')>1</button>
+								<button class = "calcButton" type="button" onclick=insertValue('2')>2</button>
+								<button class = "calcButton" type="button" onclick=insertValue('3')>3</button>
+								<button class = "calcButton" type="button" onclick=insertValue('-')>-</button>
+								<br>
+								<button class = "calcButton" type="button" onclick=insertValue('0')>0</button>
+								<button class = "calcButton" type="button" onclick=insertValue('.')>.</button>
+								<button class = "calcButton" type="button" onclick=setValue(eval(calc.input.value))>=</button>
+								<button class = "calcButton" type="button" onclick=insertValue(' + ')>+</button>
+						</td>
+					</tr>
+				</table>
+			</form>			
+		</center>
+	</body>
+</html>

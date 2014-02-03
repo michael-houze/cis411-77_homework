@@ -1,0 +1,49 @@
+html{
+	margin:0;
+	padding:0;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+p{
+	margin:0;
+	padding:0;
+	font-family: verdana;
+	font-size: 10px;
+}
+
+h4{
+	font-family: verdana;
+}
+
+.full_page{
+	background:transparent url("images/bck.jpg") no-repeat;
+	width:400px;
+	height:1000px;
+}
+
+.font_container{
+	background:url("images/bck2.jpg") no-repeat;
+	margin-left:150px;
+	margin-top:0;
+	height:1000px;
+	width:800px;
+}
+
+.center_column{
+	width:400px;
+	padding:0;
+	display:block;
+}
+
+.right_column{
+	width:300px;
+	margin-left:300px;
+	margin-top:0;
+	display:block;
+	padding:0;
+	text-align: right;
+}
