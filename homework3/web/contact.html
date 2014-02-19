@@ -5,6 +5,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 	<script src="tictactoe.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
 </head>
@@ -26,20 +27,21 @@
 
 	<div class = "main">
 
-		<form id = "contactForm">
-			<p>Please contact us by completing the following form:</p>
-			<p>
-				<label for = "contactName">Name:</label>
-				<input id = "contactName" name = "contactName" type="text">
-			</p>
-			<p>
-				<label for = "contactEmail">Email:</label>
-				<input id = "contactEmail" name = "contactEmail" type="email">
-			</p>
-			<p>
-				<label for = "contactComment">Comment:</label>
-				<textarea id = "contactComment" name = "contactComment"></textarea>
-			</p>
+		<p>Please contact us by completing the following form:</p>
+
+		<form name = "contactForm" id = "contactForm" action novalidate="novalidate" method="get">
+			<label for = "contactName">Name: </label>
+			<input id = "contactName" name = "contactName" type="text" required>
+			<br>
+			<label for = "contactEmail">Email:</label>
+			<input id = "contactEmail" name = "contactEmail" type="email" required>
+			<br>
+			<br>
+			<label for = "contactComment">Comment:</label>
+			<br>
+			<textarea rows="20" cols="70" id = "contactComment" name = "contactComment"></textarea>
+			<br>
+			<input type="submit" value="Submit">
 		</form>
 		
 	</div>
@@ -48,6 +50,10 @@
 	<div class = "footer">
 		<h5>&copy2014 Michael Houze</h5>
 	</div>
+
+	<script>
+		$("#contactForm").validate();
+	</script>
 
 </body>
 
