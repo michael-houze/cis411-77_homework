@@ -53,3 +53,6 @@ C:\Users\Houze\Documents\GitHub\cis411-77_homework\homework5\MVCMovie\MVCMovie\b
 C:\Users\Houze\Documents\GitHub\cis411-77_homework\homework5\MVCMovie\MVCMovie\obj\Debug\MVCMovie.csprojResolveAssemblyReference.cache
 C:\Users\Houze\Documents\GitHub\cis411-77_homework\homework5\MVCMovie\MVCMovie\obj\Debug\MVCMovie.dll
 C:\Users\Houze\Documents\GitHub\cis411-77_homework\homework5\MVCMovie\MVCMovie\obj\Debug\MVCMovie.pdb
+C:\Users\Houze\Documents\GitHub\cis411-77_homework\homework5\MVCMovie\MVCMovie\obj\Debug\MVCMovie.Migrations.Initial.resources
+C:\Users\Houze\Documents\GitHub\cis411-77_homework\homework5\MVCMovie\MVCMovie\obj\Debug\MVCMovie.csproj.GenerateResource.Cache
+C:\Users\Houze\Documents\GitHub\cis411-77_homework\homework5\MVCMovie\MVCMovie\obj\Debug\MVCMovie.Migrations.Rating.resources
