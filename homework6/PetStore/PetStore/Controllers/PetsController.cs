@@ -20,6 +20,16 @@ namespace PetStore.Controllers
             return View(db.Pets.ToList());
         }
 
+        public ActionResult Manage()
+        {
+            return View(db.Pets.ToList());
+        }
+
+        public ActionResult Inventory()
+        {
+            return View(db.Pets.ToList());
+        }
+
         // GET: /Pets/Details/5
         public ActionResult Details(int? id)
         {
